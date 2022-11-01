@@ -1,0 +1,12 @@
+public void remove(boolean i, Stack e)
+{
+    if(i)
+    {
+        e.pop();
+        remove(e.isEmpty,e)
+    }
+    else
+    {
+        System.out.println("Stack vacio");
+    }   
+}
